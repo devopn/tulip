@@ -25,7 +25,7 @@ services:
     image: tulip-frontend:latest
     restart: unless-stopped
     ports:
-      - "60000:3000"
+      - "127.0.0.1:60000:3000"
     expose:
       - 3000
     depends_on:
